@@ -1,0 +1,42 @@
+# 編集する前にUMP閉じてなー！ どの設定が何をするかの説明はマニュアルへ！
+# Close UMP before editing! See manual for documentation
+# https://pipiraworld.web.fc2.com/ump/manual/
+version: 3
+language: en
+midi:
+  loaderThreads: 0
+  loadNotesOnly: false
+  usePlayThread: true
+  synth: Gervill
+render:
+  background: 0xc0c0c0
+  font: Monospaced
+  fpsLimit: 120
+  height: 720
+  renderInterval: 5.0
+  resourcePack: null
+  usePFAColors: false
+  width: 1280
+  overlay:
+    opaque: false
+    info:
+      scale: 1.0
+      type: DEFAULT
+      position: TOP_RIGHT
+      showDuration: false
+    statistics:
+      render: SHOW_ALL
+      midi: SHOW_NUMBERS
+      desync: SHOW_NUMBERS
+    loading:
+      showMemoryUsage: false
+ui:
+  font: SansSerif
+files:
+  midi: /Accounts/turing/students/s28/koiran01/Documents/cs371/fourth-hour/results/Nocturne
+    in F-sharp Major, Op. 15, No. 2_melody_generated(1).midi
+  ffmpeg: null
+  resourcePacks: null
+updateChecker:
+  checkOnStartup: true
+  branch: development
