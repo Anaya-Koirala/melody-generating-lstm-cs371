@@ -45,3 +45,8 @@ pip install tensorflow[and-cuda] music21
     model.save(str(MODEL_PATH))
     print(f"Model saved to {MODEL_PATH}")
 ```
+
+5. To run the MIDI files, use the [Ultralight MIDI Player](https://pipiraworld.web.fc2.com/ump/en.html) pre-installed at ``debug/MIDIPlayer.jar``
+```bash
+java -jar debug/MIDIPlayer.jar
+```
