@@ -48,5 +48,5 @@ pip install tensorflow[and-cuda] music21
 
 5. To run the MIDI files, use the [Ultralight MIDI Player](https://pipiraworld.web.fc2.com/ump/en.html) pre-installed at ``debug/MIDIPlayer.jar``
 ```bash
-java -jar debug/MIDIPlayer.jar
+    java -jar debug/MIDIPlayer.jar
 ```
