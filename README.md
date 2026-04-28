@@ -18,19 +18,19 @@ Collaborators: Anaya Koirala, Sunny Ho, Bealu Kebede, Toai Nguyen Quoc Cong, And
 
 1. SSH into the headless machines.
 ```bash
-ssh -l "your username" -Y -p 222 cs100.cs.gettysburg.edu
+    ssh -l "your username" -Y -p 222 cs100.cs.gettysburg.edu
 ```
 or,
 
 ```bash
-ssh -l "your username" -Y -p 222 cs131.cs.gettysburg.edu
+    ssh -l "your username" -Y -p 222 cs131.cs.gettysburg.edu
 ```
 
 2. Create virtualenv and install tensorflow[and-cuda] and music21
 ```bash
-virtualenv .venv
-source .venv/bin/activate
-pip install tensorflow[and-cuda] music21
+    virtualenv .venv
+    source .venv/bin/activate
+    pip install tensorflow[and-cuda] music21
 ```
 
 3. Run ``python fourth-hour.py`` to train in the headless labs.
