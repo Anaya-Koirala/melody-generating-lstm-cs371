@@ -12,11 +12,11 @@ render:
   background: 0xc0c0c0
   font: Monospaced
   fpsLimit: 120
-  height: 720
+  height: 703
   renderInterval: 5.0
   resourcePack: null
   usePFAColors: false
-  width: 1280
+  width: 1210
   overlay:
     opaque: false
     info:
@@ -33,7 +33,8 @@ render:
 ui:
   font: SansSerif
 files:
-  midi: /Accounts/turing/students/s28/koiran01/Documents/cs371/fourth-hour/results/deut1876_generated.mid
+  midi: /Accounts/turing/students/s28/koiran01/Documents/cs371/fourth-hour/results/chopin-dataset/FUNNY_Polonaise
+    Op. 53 in A-flat Major_generated.midi
   ffmpeg: null
   resourcePacks: null
 updateChecker:
