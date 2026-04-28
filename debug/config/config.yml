@@ -33,8 +33,7 @@ render:
 ui:
   font: SansSerif
 files:
-  midi: /Accounts/turing/students/s28/koiran01/Documents/cs371/fourth-hour/results/Nocturne
-    in F-sharp Major, Op. 15, No. 2_melody_generated(1).midi
+  midi: /Accounts/turing/students/s28/koiran01/Documents/cs371/fourth-hour/results/deut1876_generated.mid
   ffmpeg: null
   resourcePacks: null
 updateChecker:

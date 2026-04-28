@@ -1,5 +1,5 @@
 import os
-from music21 import converter, midi
+from music21 import converter
 
 def convert_krn_to_midi(input_dir, output_dir):
     # Make sure the output directory exists
@@ -16,4 +16,4 @@ def convert_krn_to_midi(input_dir, output_dir):
         score = converter.parse(krn_file_path)
         score.write('midi', fp=os.path.join(output_dir, krn_file.replace('.krn', '.midi')))
 
-#convert_krn_to_midi("deutschl/allerkbd","melodies/")
+convert_krn_to_midi("deutschl/erk","melodies/")
