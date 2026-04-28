@@ -5,7 +5,7 @@ A simple LSTM that learns to continue piano melodies.
 
 Collaborators: Anaya Koirala, Sunny Ho, Bealu Kebede, Toai Nguyen Quoc Cong, Andy Nguyen, Konstantin Vassilyeva
 
-[Read More on the Webpage](cs.gettysburg.edu/~koiran01/cs371)
+[Read More on the Webpage](http://cs.gettysburg.edu/~koiran01/cs371/)
 
 #### Train and Generate in the Lab
 - We **highly** recommend you train the model through CUDA on Nvidia GPUs.
